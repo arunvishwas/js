@@ -20,3 +20,9 @@ console.log(valuetype); //out-NaN(Not a Number) special type of data when javasc
 
 //when data type is boolean and input is true then output is 1 it show the boolean vlaue is true
 //when input is string "arun" then output is NaN because string with alphabet cannot be change into number
+
+//boolean conversion
+
+let booleanValue = 1;
+let booleanChange = Boolean(booleanValue);
+console.log(booleanChange); //output is true 
