@@ -26,3 +26,10 @@ console.log(valuetype); //out-NaN(Not a Number) special type of data when javasc
 let booleanValue = 1;
 let booleanChange = Boolean(booleanValue);
 console.log(booleanChange); //output is true 
+
+
+
+//string concversion
+let i=33;
+let strings = String(i);
+console.log(typeof strings);
