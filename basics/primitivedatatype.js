@@ -11,7 +11,7 @@
 const score = 100;
 const scoreVal=100.1;
 const isloggedIn=false;
-const outsidetemp=null;
+const outsidetemp=null; //dataype is object 
 let userEmail = undefined; //you can also define it manually
 const id=Symbol('123');
 const anotherId=Symbol('123');
@@ -26,6 +26,15 @@ name:"hitesh",
 age:22,
 
 }
+ //function
 
+ //function(){}
+//function declare using variable
+ const myFunction=function()
+ {
+console.log("hello World");
+ }
 
+console.log(typeof myFunction);
+ 
  
