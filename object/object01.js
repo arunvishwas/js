@@ -1,4 +1,5 @@
- //object literals
+ //object literals type of creating an object
+ //you can also create an object by using constructor Object.create it in singleton
  const mySym =Symbol("key1")
  const JsUser = {
         name:"Hitesh",

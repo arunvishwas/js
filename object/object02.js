@@ -18,3 +18,5 @@ console.log(obj.name);
 //if you want stop the changes
 Object.freeze(obj); //original array will we same their happen no changes
 
+
+
