@@ -18,5 +18,6 @@ console.log(user.username); //access the other value
 user.username="Arun by Microsoft"; //change the context this will be changeable
 console.log(this) //know the current object use after where you use this keyword
 user.welcomemessage();
+console.log(this) //here this is reference to empty {} in output
 
 
