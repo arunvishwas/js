@@ -54,5 +54,3 @@ if(Object.keys(objmath).length===0)
 console.log("object is empty ");
 
 }
-adsjkljd
-klsdjlkds
