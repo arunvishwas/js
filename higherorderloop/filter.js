@@ -33,6 +33,14 @@ let arr2 = [
      );  
      console.log(arr3);
 
+     const arr4 = arr2.filter((arr5) =>{
+        return (arr5.publish>=2000)
+    }
+     );  
+     console.log(arr4);
+
+
+
 
 
 
