@@ -25,5 +25,12 @@ console.log(arr1); //it return the new value not modify the original one
 //map chainning  
 
 const newNums = arr1.map((num)=>{
-   num*20
-})
+     return num*20
+}).map((num)=>{
+   return num+1;
+  }).filter((num)=>{
+    return num >10; //you can apply more than one function
+
+  })
+
+console.log(newNums);
